@@ -47,5 +47,5 @@ set_paths.m - This script is where you set all the paths to the data and will be
 
 Propensity-matched analysis: This code is slightly adapted versions of the code above to be run with the propensity matched sample
 - A calculate_organizational_properties.m
-- B organizational_analysis
+- B organizational_analysis.R
 
