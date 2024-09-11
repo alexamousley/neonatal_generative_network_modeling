@@ -10,7 +10,7 @@ Software
 
 Toolboxes/Functions
 1) Brain Connectivity Toolbox (https://sites.google.com/site/bctnet/home?authuser=0)
-Rubinov, M., & Sporns, O. (2010). Complex network measures of brain connectivity: uses and 	interpretations. Neuroimage, 52(3), 1059-1069.
+Rubinov, M., & Sporns, O. (2010). Complex network measures of brain connectivity: uses and interpretations. Neuroimage, 52(3), 1059-1069.
 2) Consensus network creation (https://www.brainnetworkslab.com/coderesources)
 Betzel, R. F., Griffa, A., Hagmann, P., & Mišić, B. (2019). 
 Distance-dependent consensus thresholds for generating group-representative
@@ -31,22 +31,22 @@ set_paths.m - This script is where you set all the paths to the data and will be
 - E organizational_analysis.R  
 
 3) Initial generative network model selection 
-	A run_initial_generative_models.m
-	B analyze_initial_generative_models.m  
-	C compare_initial_models_plot.R
+- A run_initial_generative_models.m
+- B analyze_initial_generative_models.m  
+- C compare_initial_models_plot.R
 
 4) Individually fit generative network models 
-	A run_individual_generative_models.m
-	B organize_individual_model_output.m 
-	C analyze_individual_generative_models.m 
-	D visualize_individual_generative_models.R 
+- A run_individual_generative_models.m
+- B organize_individual_model_output.m 
+- C analyze_individual_generative_models.m 
+- D visualize_individual_generative_models.R 
 
 5) Group-representative developmental models 
-	A run_developmental_generative_models.m
-	B analyze_developmental_generative_models.m 
-	C visualize_developmental_generative_models.R 
+- A run_developmental_generative_models.m
+- B analyze_developmental_generative_models.m 
+- C visualize_developmental_generative_models.R 
 
-Propensity matched analysis - This code is slightly adapted versions of the code above to be run with the propensity matched sample
-	A calculate_organizational_properties.m
-	B organizational_analysis
+Propensity-matched analysis: This code is slightly adapted versions of the code above to be run with the propensity matched sample
+- A calculate_organizational_properties.m
+- B organizational_analysis
 
