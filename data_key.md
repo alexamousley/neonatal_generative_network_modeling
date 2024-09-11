@@ -7,8 +7,8 @@ Mousley, A., Akarca, D., & Astle, D.E. (2023). Premature birth changes wiring co
 For any questions regarding the use of this repository, please get in touch at alexa.mousley@mrc-cbu.cam.ac.uk
 
 **additional_analyses**
-	**multiple_density_networks**
-		- Multiple_densities.mat is a matlab struct that contains the thresholds, densities, and consensus networks used in the additional density analysis (Supplementary Fig. 2)
+- **multiple_density_networks**
+  	- Multiple_densities.mat is a matlab struct that contains the thresholds, densities, and consensus networks used in the additional density analysis (Supplementary Fig. 2)
 	**multiple_minimum_fiber_lengths**
 		- This folder contains 4 versions of binarized networks - each that was tracked using a different minimum fiber length. The number at the end of the title indicates the fiber length used (e.g., binarized_connectomes5.mat was tracked using 5mm minimum fiber length).
 	**propensity_matched_analysis**
