@@ -24,11 +24,11 @@ All derived, anonymized data used in this publication is available at: https://o
 set_paths.m - This script is where you set all the paths to the data and will be called for all MATLAB scripts.
 
 1) Observed topological analysis
-   A network_thresholding.m
-   B create_consensus_network.m
-   C identify_rich_club_nodes.m
-   D calculate_organizational_measures.m
-   E organizational_analysis.R  
+- A network_thresholding.m
+- B create_consensus_network.m
+- C identify_rich_club_nodes.m
+- D calculate_organizational_measures.m
+- E organizational_analysis.R  
 
 3) Initial generative network model selection 
 	A run_initial_generative_models.m
