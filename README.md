@@ -3,12 +3,11 @@ Mousley, A., Akarca, D., & Astle, D.E. (2023). Premature birth changes wiring co
 
 For any questions regarding the use of this repository, please get in touch at alexa.mousley@mrc-cbu.cam.ac.uk
 
-**Requirements**
-Software
+**Requirements/Software**
 1) MATLAB 2020B (installation: https://uk.mathworks.com/help/install/install-products.html)
 2) RStudio 4.1.2 (installation: https://rstudio.com/products/rstudio/download/)
 
-Toolboxes/Functions
+**Toolboxes/Functions**
 1) Brain Connectivity Toolbox (https://sites.google.com/site/bctnet/home?authuser=0)
 Rubinov, M., & Sporns, O. (2010). Complex network measures of brain connectivity: uses and interpretations. Neuroimage, 52(3), 1059-1069.
 2) Consensus network creation (https://www.brainnetworkslab.com/coderesources)
