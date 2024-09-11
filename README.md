@@ -23,29 +23,29 @@ All derived, anonymized data used in this publication is available at: https://o
 set_paths.m - This script is where you set all the paths to the data and will be called for all MATLAB scripts.
 
 1) Observed topological analysis
-- A network_thresholding.m
-- B create_consensus_network.m
-- C identify_rich_club_nodes.m
-- D calculate_organizational_measures.m
-- E organizational_analysis.R  
+- A_network_thresholding.m
+- B_create_consensus_network.m
+- C_identify_rich_club_nodes.m
+- D_calculate_organizational_measures.m
+- E_organizational_analysis.R  
 
 3) Initial generative network model selection 
-- A run_initial_generative_models.m
-- B analyze_initial_generative_models.m  
-- C compare_initial_models_plot.R
+- A_run_initial_generative_models.m
+- B_analyze_initial_generative_models.m  
+- C_compare_initial_models_plot.R
 
 4) Individually fit generative network models 
-- A run_individual_generative_models.m
-- B organize_individual_model_output.m 
-- C analyze_individual_generative_models.m 
-- D visualize_individual_generative_models.R 
+- A_run_individual_generative_models.m
+- B_organize_individual_model_output.m 
+- C_analyze_individual_generative_models.m 
+- D_visualize_individual_generative_models.R 
 
 5) Group-representative developmental models 
-- A run_developmental_generative_models.m
-- B analyze_developmental_generative_models.m 
-- C visualize_developmental_generative_models.R 
+- A_run_developmental_generative_models.m
+- B_analyze_developmental_generative_models.m 
+- C_visualize_developmental_generative_models.R 
 
 Propensity-matched analysis: This code is slightly adapted versions of the code above to be run with the propensity matched sample
-- A calculate_organizational_properties.m
-- B organizational_analysis.R
+- A_calculate_organizational_properties.m
+- B_organizational_analysis.R
 
