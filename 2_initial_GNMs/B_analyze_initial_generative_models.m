@@ -36,7 +36,7 @@ load('euclidean_distance.mat');
 modeltype = string({'sptl', 'neighbors', 'matching', 'clu-avg', 'clu-min', 'clu-max', 'clu-diff', 'clu-prod', 'deg-avg', 'deg-min', 'deg-max', 'deg-diff', 'deg-prod'});
 nmodels = length(modeltype);  % number of models
 % Display full names of models, just for visualizations
-modelname = string({'Spatial','Neighbours','Matching',...
+modelname = string({'Spatial','Neighbors','Matching',...
     'Clustering Average','Clustering Minimum','Clusetering Maximum','Clustering Difference','Clustering Product',...
     'Degree Average','Degree Minimum','Degree Maximum','Degree Difference','Degree Product'});
 
@@ -108,12 +108,17 @@ end
 
 % Plot landscape for one model type (Figure 4A)
 model = 3; % Choose model
-
 figure(2);clf(2);
+hold on
+e = squeeze(initial_generative_models.energy(model,:));
 scatter(initial_generative_models.params(model,:,1),initial_generative_models.params(model,:,2),100,e,'.'); 
-title(modelname(model)); xlabel('Eta'); ylabel('Gamma'); 
+scatter(params_sorted(model,1,1),params_sorted(model,1,2),'g','filled');
+hold off
+xticks([-8 0]); yticks([-8 8]); title(modelname(model)); xlabel('Eta'); ylabel('Gamma'); 
 caxis([0 1]); c = colorbar; c.Label.String = 'Energy'; colormap(gca,'hot');
 b = gca; b.TickDir = 'out';
+set(gca, 'FontName', 'Arial');       
+c.Label.FontName = 'Arial';  
 
 %% (3) Calculate organizational measures for observed and simulated networks
 

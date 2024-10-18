@@ -109,7 +109,7 @@ energy_violin <- energy_df %>%
         axis.text.x = element_blank(),legend.position='none',axis.ticks.x=element_blank(),
         axis.title.y = element_text(size=15,colour='black')) 
 ## TF dissimilarity
-TFdiss_df <- bind_cols(x,best_energy)             
+TFdiss_df <- bind_cols(x,TFdissimilarity)             
 colnames(TFdiss_df) <- c("Participants","TFdiss") 
 # Plot (Figure 4D)
 TF_violin <- TFdiss_df %>%
@@ -174,7 +174,7 @@ p2 <- plot.gam(model_cs,rug=T)
 # Print model summary
 summary(eta_model)
 
-# Plot eta model (Figure 2B)
+# Plot eta model (Figure 5B)
 reg_plots <- visreg(eta_model,gg=TRUE,type="conditional") 
 eta_plot <- ggplot() +
   # Plot points, regression line and confidence intervals of postconceptional age
