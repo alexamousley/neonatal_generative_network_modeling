@@ -1,5 +1,5 @@
 **Code repository for:**
-Mousley, A., Akarca, D., & Astle, D.E. (2023). Premature birth changes wiring constraints in neonatal structural brain networks. PREPRINT available at Research Square [https://doi.org/10.21203/rs.3.rs-3062369/v1]
+Mousley, A., Akarca, D., & Astle, D. E. (2025). Premature birth changes wiring constraints in neonatal structural brain networks. Nature Communications, 16(1), 490. https://doi.org/10.1038/s41467-024-55178-x 
 
 For any questions regarding the use of this repository, please get in touch at alexa.mousley@mrc-cbu.cam.ac.uk
 
@@ -48,4 +48,8 @@ set_paths.m - This script is where you set all the paths to the data and will be
 Propensity-matched analysis: This code is slightly adapted versions of the code above to be run with the propensity matched sample
 - A_calculate_organizational_properties.m
 - B_organizational_analysis.R
+
+**Surface Plots**
+
+All surface plots were created in MatLab2020b using Dr Stuart Oldham's highly  customizable, open source function: https://github.com/StuartJO/plotSurfaceROIBoundary. This is an incredible resource for surface plotting any atlas in MatLab. We also would like to extend a thank you to Dr Oldham for constructing the ROI boundaries for the neonatal AAL90 atlas and sharing it with us!
 
